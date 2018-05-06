@@ -4,13 +4,13 @@ function getIt() {
   $('p').on('click', function() {
     alert("Hey!");
     return;
-  })
+  });
 }
 
 function frameIt() {
-  $('img').('load', function () {
-    img.attr('.tasty')
-  })
+  $('img').on('load', function () {
+    img.attr('.tasty');
+  });
 }
 
 function pressIt() {
@@ -19,14 +19,14 @@ function pressIt() {
       alert('g was pressed');
       return;
     }
-  })
+  });
 }
 
 function submitIt() {
   $('form').on('submit', function () {
-    alert "Your form is going to be submitted now.";
+    alert("Your form is going to be submitted now.");
     return;
-  })
+  });
 }
 
 $(document).ready(function (){
