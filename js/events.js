@@ -19,7 +19,6 @@ function pressIt() {
       alert('g was pressed');
       return;
     }
-    alert("You entered the wrong value");
   });
 }
 
